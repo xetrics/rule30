@@ -1,0 +1,14 @@
+[package]
+name = "rule30_sim"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+opt-level = 3
+
+[dependencies]
+font-kit = "0.14.3"
+fontdue = "0.9.4"
+pixels = "0.17.2"
+winit = "0.30.13"
+winit_input_helper = "0.17.0"
